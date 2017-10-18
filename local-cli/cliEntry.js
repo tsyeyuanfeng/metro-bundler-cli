@@ -57,7 +57,7 @@ function printHelpInformation() {
 
   let output = [
     '',
-    chalk.bold(chalk.cyan((`  react-native ${cmdName} ${this.usage()}`))),
+    chalk.bold(chalk.cyan((`  metro-bundler ${cmdName} ${this.usage()}`))),
     `  ${this._description}`,
     '',
     ...sourceInformation,
@@ -91,7 +91,7 @@ function printUnknownCommand(cmdName) {
     cmdName
       ? chalk.red(`  Unrecognized command '${cmdName}'`)
       : chalk.red('  You didn\'t pass any command'),
-    `  Run ${chalk.cyan('react-native --help')} to see list of all available commands`,
+    `  Run ${chalk.cyan('metro-bundler --help')} to see list of all available commands`,
     '',
   ].join('\n'));
 }
