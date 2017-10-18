@@ -17,11 +17,11 @@ const getPolyfills = require('../../rn-get-polyfills');
 const invariant = require('fbjs/lib/invariant');
 const path = require('path');
 
-const {Config: MetroConfig} = require('metro-bundler');
+const {Config: MetroConfig} = require('@tsyeyuanfeng/metro-bundler');
 
 const RN_CLI_CONFIG = 'rn-cli.config.js';
 
-import type {ConfigT as MetroConfigT} from 'metro-bundler';
+import type {ConfigT as MetroConfigT} from '@tsyeyuanfeng/metro-bundler';
 
 /**
  * Configuration file of the CLI.

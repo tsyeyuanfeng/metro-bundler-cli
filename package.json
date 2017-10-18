@@ -1,12 +1,9 @@
 {
   "name": "metro-bundler-cli",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A command line tool of metro bundler",
   "bin": {
     "metro-bundler": "bin/metro-bundler-cli.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -23,7 +20,7 @@
     "url": "https://github.com/tsyeyuanfeng/metro-bundler-cli/issues"
   },
   "homepage": "https://github.com/tsyeyuanfeng/metro-bundler-cli#readme",
-  "dependencies": {    
-    "metro-bundler": "file:metro-bundler"
+  "dependencies": {
+    "@tsyeyuanfeng/metro-bundler": "^0.20.2"
   }
 }
