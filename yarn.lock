@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@tsyeyuanfeng/metro-bundler@^0.20.2":
-  version "0.20.2"
-  resolved "https://registry.yarnpkg.com/@tsyeyuanfeng/metro-bundler/-/metro-bundler-0.20.2.tgz#2ab91171a00e7f5012c00e4f703a774070f4c6ad"
+"@tsyeyuanfeng/metro-bundler@^0.20.9":
+  version "0.20.9"
+  resolved "https://registry.yarnpkg.com/@tsyeyuanfeng/metro-bundler/-/metro-bundler-0.20.9.tgz#b0d89ae48872a50c3d40a1f173a6df792956c171"
   dependencies:
     absolute-path "^0.0.0"
     async "^2.4.0"

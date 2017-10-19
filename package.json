@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/tsyeyuanfeng/metro-bundler-cli#readme",
   "dependencies": {
-    "@tsyeyuanfeng/metro-bundler": "^0.20.2"
+    "@tsyeyuanfeng/metro-bundler": "^0.20.9",
+    "graceful-fs": "^4.1.11"
   }
 }

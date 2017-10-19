@@ -31,6 +31,11 @@ module.exports = [
     command: '--manifest-output [string]',
     description: 'File name where to store the manifest file, ex. /tmp/manifest.json',
   }, {
+    command: '--use-stable-id [boolean]',
+    description: 'If true, module\'s id uses stable hash',
+    parse: (val) => val === 'false' ? false : true,
+    default: false
+  }, {
     command: '--exclude [string]',
     description: 'Manifest file name where modules to exclude are stored, ex. /tmp/manifest.json',
   }, {

@@ -84,9 +84,10 @@ function buildBundle(
     dev: args.dev,
     minify: !args.dev,
     platform: args.platform,
-    exclude: args.exclude,
+    useStableId: args.useStableId,
+    exclude: args.exclude,        
   };
-
+  
   // If a packager instance was not provided, then just create one for this
   // bundle command and close it down afterwards.
   var shouldClosePackager = false;
@@ -133,7 +134,6 @@ function buildBundle(
       useDeltaBundler: false,
       watch: false,
       workerPath: config.getWorkerPath && config.getWorkerPath(),
-      useStableId: args.exclude || args.manifestOutput
     };
 
     packagerInstance = new Server(options);
